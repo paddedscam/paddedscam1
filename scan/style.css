@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f7fb;
+  color: #222;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 50px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  padding: 40px 60px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hero h1 {
+  font-size: 52px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.search-section input {
+  width: 500px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+section h2 {
+  margin-bottom: 30px;
+}
+
+.artist-row {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.artist-profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.works-preview {
+  display: flex;
+  gap: 15px;
+  flex: 1;
+}
+
+.work-card {
+  width: 150px;
+  height: 220px;
+  background: #ddd;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.see-more a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  padding: 25px;
+  text-align: center;
+  background: white;
+}
+.author-banner,
+.work-header {
+display: flex;
+gap: 30px;
+margin-bottom: 40px;
+}
+
+.author-banner img,
+.work-header img {
+width: 220px;
+border-radius: 15px;
+}
+
+.author-links {
+display: flex;
+gap: 15px;
+margin-top: 20px;
+}
+
+.works-grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 20px;
+}
+
+.reader img {
+width: 100%;
+margin-bottom: 20px;
+}
+
+.team-grid {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 20px;
+}
+
+.team-member,
+.policy-content {
+background: white;
+padding: 20px;
+border-radius: 10px;
+}
+.logo a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  color: #7eb6ff;
+}
+
+.breadcrumb {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #7eb6ff;
+}
